@@ -1,17 +1,3 @@
-html {
-        --s: 140px; /* control the size*/
-        --c1: black;
-        --c2: #ffffff;
-
-        --_g: #0000 52%,var(--c1) 54% 57%,#0000 59%; 
-        background: 
-        radial-gradient(farthest-side at -33.33% 50%,var(--_g)) 0 calc(var(--s)/2),
-        radial-gradient(farthest-side at 50% 133.33%,var(--_g)) calc(var(--s)/2) 0,
-        radial-gradient(farthest-side at 133.33% 50%,var(--_g)),
-        radial-gradient(farthest-side at 50% -33.33%,var(--_g)),
-        var(--c2);
-        background-size: calc(var(--s)/4.667) var(--s),var(--s) calc(var(--s)/4.667);
-}
 body {
         display: flex;
         justify-content: center;
@@ -19,6 +5,10 @@ body {
         font-family: sans-serif;
         margin-top: 5vh;
         margin-bottom: 5vh;
+background-color: #ffffff;
+opacity: 1;
+background-image:  linear-gradient(#000000 1.6px, transparent 1.6px), linear-gradient(to right, #000000 1.6px, #ffffff 1.6px);
+background-size: 32px 32px;
 }
 .flex-container {
         text-transform: lowercase;
@@ -77,4 +67,36 @@ li {
     border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAAB6klEQVR4Xu2b0W6CUBAFgf//5rY0tY0QEi/s7Elpx0eFs7vD3CtGnScfKIEZTTNsEigsgUAFChOA4zRUoDABOE5DBQoTgOM0VKAwAThOQwUKE4DjNFSgMAE4TkMFChOA4zRUoDABOE5D/wDQd3iGg7hlfe7t+/moNNFijwkDQDeMozNGiwm0Z20+GbpZmj3VpuwXkQlD90s8UfP54kTrJ4aLDnSgebS+QOGNRqA3ABpdYhd4tPbXYWhrwxcA7k9p7a8B6LI2/PMp5XOYhholrHcDOrU2XEL5dXJrfx32tDYsUJd82QENLSPcBghUoBwB35TgPZ4Huqy3JZvbUO9Dq/67h1YJ7s4XqEA5Avwe2vzRrjx68x7//4A2X3CB/vrbpmYDyku+uT8N1dCyo623dRqqoRrasQoqVF3yFXrpX5J02NNqAAC3tT+B+qZUdlRDywiD33l1LPnoT18GYLcaua8v0IErcuYQgZ6hNXCsQAcgnTkkAfTVnrp7fW1pXrc97s830RmjxR7kOFRj6kRnjBa7AhT44010xmixK0APJTxHOTpjtNjYCr33UQKFr59ABQoTgOM0VKAwAThOQwUKE4DjNFSgMAE4TkMFChOA4zRUoDABOE5DBQoTgOM0VKAwAThOQwUKE4DjPgCfJ1lVKgcsfgAAAABJRU5ErkJggg==") 28 /  28px / 0 round;
     border-width:  28px;
     border-style:  solid;
+}
+@media only screen and (max-width: 1919px) {
+        .flex-container {
+                width: 55vw;
+        }
+}
+@media only screen and (max-width: 1365px) {
+        .flex-container {
+                width: 75vw;
+        }
+}
+@media only screen and (max-width: 969px) {
+        .flex-container {
+                width: 85vw;
+        }
+}
+@media only screen and (max-width: 870px) {
+        .flex-container {
+                width: 95vw;
+        }
+@media only screen and (max-width: 750px) {
+        .flex-container {
+                width: 95vw;
+        }
+        nav {
+                flex-direction: column;
+        }
+        main {
+                min-height: 0px;
+        }
+}
+
 }
