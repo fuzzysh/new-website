@@ -1,0 +1,7 @@
+.home-desc {
+        display: none;
+}
+.HCB-container {
+        display: flex;
+        justify-content: center;
+}

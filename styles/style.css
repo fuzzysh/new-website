@@ -1,0 +1,48 @@
+body {
+        background-color: black;
+        display: flex;
+        height: 95vh;
+        justify-content: center;
+        align-items: center;
+        font-family: sans;
+        background-image: url(../media/bg/pattern\ 30.gif);
+}
+.flex-container {
+        text-transform: lowercase;
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+        align-content: center;
+}
+header {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-color: blue;
+        align-items: flex-end;
+        color: white;
+        padding-right: 10px;
+}
+nav {
+        display: flex;
+        background-color: orange;
+        justify-content: center;
+        column-gap: 10px;
+        
+}
+nav a {
+        background-color: lightblue;
+        padding: 10px;
+}
+main {
+        display: flex;
+        background-color: white;
+        min-height: 750px;
+
+}
+main section {
+        padding-left: 10px;
+}
+li {
+        list-style-type: none;
+}
