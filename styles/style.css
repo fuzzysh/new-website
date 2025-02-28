@@ -91,7 +91,7 @@ li {
     border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAAByUlEQVR4Xu3bQW7CQBBEUbj/oYkiskgsWTVl/7ZR9Nl2UzDPZa/g+fCFCjzRNMMegsIlEFRQWACOs6GCwgJwnA0VFBaA42yooLAAHGdDBYUF4DgbKigsAMfZUEFhATjOhgoKC8BxNvQfgL7gM7RxoyUaDd85qaBtBcK+oIKuC1xxy28becVn/hZIdwT6fdCwxWfmFZ8p6PpNVW/uN/T70r7Y3yZc0RZv+boDf99wN2D6+qPP1ImGCpouaTkXtARL64ImoXIuaAmW1gVNQuVc0BIsrQuahMq5oCVYWhc0CZVzQUuwtC5oEirngpZgaV3QJFTOBS3B0rqgSaicC1qCpXVBk1A5F7QES+uCJqFyLmgJltYFTULlXNASLK0LmoTKuaAlWFoXNAmVc0FLsLQuaBI6Ob8bOP2WaXu8Uz9POvXmRWhBF6FW1wRdlVrcE3QRanWtfYat5lJ76GMPDds5oaDUpf/JEVTQ4wJX3PLbb3d3Y0fPPBr+oc/U0TOPhh8Fff99aOw1eubR8KOgY5Tv4NEzj4YPw3xkvKDwZRFUUFgAjrOhgsICcJwNFRQWgONsqKCwABxnQwWFBeA4GyooLADH2VBBYQE47gsfjlZVxvKHWwAAAABJRU5ErkJggg==") 28 /  28px / 0 round;
     border-width:  28px;
     border-style:  solid;
-}
+}    
 @media only screen and (max-width: 1919px) {
         .flex-container {
                 width: 55vw;
