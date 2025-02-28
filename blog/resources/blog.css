@@ -1,3 +1,6 @@
+.flex-container {
+        text-transform: none;
+}
 #footer {
         display: none;
 }
@@ -12,4 +15,6 @@
         display: flex;
         gap: 5px;
 }
-
+main ul {
+        margin-bottom: 15px;
+}
