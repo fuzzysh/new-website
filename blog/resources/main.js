@@ -27,8 +27,8 @@ Add a new item in the "messages" array, containing the message content (this can
 	SETTINGS
 ============= */
 
-const latestPostsCutoff = 5; // number of blog posts displayed on home page
-const messagesOn = true; // whether or not to show a random message in the header
+const latestPostsCutoff = 50; // number of blog posts displayed on home page
+const messagesOn = false; // whether or not to show a random message in the header
 
 // links listed in header (nav) and footer (contact)
 const navLinks = [

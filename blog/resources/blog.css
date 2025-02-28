@@ -8,3 +8,8 @@
         display: flex;
         flex-direction: column;
 }
+#post-tags {
+        display: flex;
+        gap: 5px;
+}
+
