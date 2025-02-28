@@ -45,6 +45,7 @@ nav a {
 }
 main {
         display: flex;
+        flex-direction: column;
         background-color: white;
         min-height: 750px;
 }
