@@ -5,3 +5,11 @@ main {
         display: flex;
         gap: 10px;
 }
+.blog-image {
+        width: 50%;
+}
+.sheet {
+        border-image:  url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAABqElEQVR4Xu3bQY7CMBBE0eT+hwa2BCF3d/0kivRni1N2vxRmNfvmHyqwo2mGbYLCJRBUUFgAjrOhgsICcJwNFRQWgONsqKCwABxnQx8I+oLPfHVcq3StxcNJBB3C/XtMUEG/BFrf4tbiIvSqkWfsWTxaadnx/K3zthaXjrNtghahqssErUoV1wlahKr+ih+vkehOCs82eTw6L3GHrg6w+nwy9JnPROcV9PfVCArX9XLQ1Y/Oaj7iW7HaI/k8mm8yXLThZ9LJnglQ99lovslw0YaCri/tbgMmL7G7R7I+KsxkuOjSTia96FlBYWhBBYUF4DgbKigsAMfZUEFhATjOhgoKC8BxNlRQWACOs6GCwgJwnA0VFBaA42yooLAAHGdDBYUF4DgbKigsAMfZUEFhATjOhgoKC8BxNlRQWACOs6GCwgJwnA0VFBaA42yooLAAHGdDBYUF4DgbKigsAMfZUEFhATju9obC8zw7jvjHr2cLwKcXVFBYAI6bNLR7hOiS725293pB4TcgqKCwABxnQwWFBeA4GyooLADH2VBBYQE4zoYKCgvAcW/yqIAZzrdtfAAAAABJRU5ErkJggg==') 28 /  28px / 0 round;
+        border-width:  28px;
+        border-style:  solid; 
+}
