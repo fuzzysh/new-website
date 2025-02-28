@@ -109,13 +109,13 @@ function formatTagHash(tag) {
 ------------------ */
 
 // write in main-nav and footer content
-document.getElementById(`header`).innerHTML = `
-<nav id="main-nav"><ul class="flex-list">${navLinks.map(link => `<li><a href="${pathToInfo}${link.filename}.html">${link.name}</a></li>`).join(``)}</ul></nav>
-${messagesOn && messages.length > 0
-? `<div id="header-message">${messages[Math.floor(Math.random() * messages.length)]}</div>`
-: ``}
-`;
-document.getElementById(`contact-links`).innerHTML = contactLinks.map(link => `<li><a href="${link.url}" rel="external">${link.name}</a></li>`).join(``);
+//document.getElementById(`header`).innerHTML = `
+//<nav id="main-nav"><ul class="flex-list">${navLinks.map(link => `<li><a href="${pathToInfo}${link.filename}.html">${link.name}</a></li>`).join(``)}</ul></nav>
+//${messagesOn && messages.length > 0
+//? `<div id="header-message">${messages[Math.floor(Math.random() * messages.length)]}</div>`
+//: ``}
+//`;
+//document.getElementById(`contact-links`).innerHTML = contactLinks.map(link => `<li><a href="${link.url}" rel="external">${link.name}</a></li>`).join(``);
 
 /* ----------
 	LISTS

@@ -111,6 +111,7 @@ li {
         .flex-container {
                 width: 95vw;
         }
+}
 @media only screen and (max-width: 750px) {
         .flex-container {
                 width: 95vw;
@@ -121,6 +122,4 @@ li {
         main {
                 min-height: 0px;
         }
-}
-
 }
