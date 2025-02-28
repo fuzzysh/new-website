@@ -53,14 +53,19 @@ const contactLinks = [
 
 const posts = [
 {
-	"title": `Fuzzy's 2025 Winter Season Primer`,
-	"filename": `2025-04-01-winter-primer`,
+	"title": `Fuzzy's 2025 Spring Anime Season Primer`,
+	"filename": `2025-04-01-spring-primer`,
 	"tags": [`otaku`, `primer`],
 },
 {
         "title": `Manga Time Kirara Manga 3x3`,
         "filename": `2025-03-01-krr-3x3.html`,
-        "tags": [`otaku`, `kirara`]
+        "tags": [`otaku`, `kirara`],
+},
+{
+        "title": `Fuzzy's 2025 Winter Anime Season Primer`,
+        "filename": `2025-01-01-winter-primer`,
+        "tags": [`otaku`, `primer`],
 },
 ];
 
