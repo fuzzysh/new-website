@@ -59,7 +59,7 @@ const posts = [
 //},
 {
         "title": `Manga Time Kirara Manga 3x3`,
-        "filename": `2025-03-01-krr-3x3`,
+        "filename": `2025-02-28-krr-3x3`,
         "tags": [`otaku`, `kirara`],
 },
 {

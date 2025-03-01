@@ -1,5 +1,9 @@
 main {
         text-transform: none;
+        max-height: 600px;
+        overflow-y: auto;
+        overflow-x: none;
+        padding-right: 10px;
 }
 h4 {
         margin-bottom: 15px;
