@@ -47,7 +47,7 @@ main {
         display: flex;
         flex-direction: column;
         background-color: white;
-        min-height: 600px;
+        min-height: 750px;
 }
 main section {
         padding-left: 10px;
