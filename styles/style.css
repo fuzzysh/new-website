@@ -52,6 +52,10 @@ main {
 main section {
         padding-left: 10px;
 }
+.center-column {
+        display: flex;
+        justify-content: center;
+}
 li {
         list-style-type: none;
 }    
