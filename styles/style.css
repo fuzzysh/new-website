@@ -113,6 +113,7 @@ li {
 .buttons>img {
         width: 88px;
         height: 31px;
+        image-rendering: pixelated;
         margin: 1px;
         background-color: rgba(0, 0, 0, 0.0);
 }
