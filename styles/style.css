@@ -80,6 +80,12 @@ nav a {
 nav a:visited{
         color: var(--text);
 }
+.scroll {
+        max-height: 750px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding-right: 10px;
+}
 main {
         display: flex;
         color: var(--text);
