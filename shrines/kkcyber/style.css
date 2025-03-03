@@ -103,8 +103,8 @@ aside ul{
         margin-left: 5px;
 }
 aside li {
-        background-image: linear-gradient(to left bottom, #445899, #262f5e);
-        color: white;
+        background: linear-gradient(to left bottom,lightblue, lightblue, lightpink,lightpink);
+        color: black;
         padding: 4px;
         border-radius: 5px;
 }
