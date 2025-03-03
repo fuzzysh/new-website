@@ -57,6 +57,28 @@ footer {
 footer a {
         color: black;
 }
+.buttons-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+        background-color: #25222a;
+        border-style: solid;
+        border-color: #e4e4e4;
+        padding-top: 5px;
+        padding-bottom: 5px;
+}
+.buttons {
+        display: flex;
+        justify-content: center;
+        gap: 2px;
+}
+
+.buttons>img {
+        width: 88px;
+        height: 31px;
+        image-rendering: pixelated;
+        background-color: rgba(0, 0, 0, 0.0);
+}
 /*
  * identification
  */
